@@ -1,62 +1,79 @@
 .top{ 
     background-color: black;
     height:70px;
-    padding: 30px;
+    padding: 40px;
     display: flex;
-    position: relative;
-    justify-content: flex-start;
+    color:lime;
+    font-size:20px;
 }
 h1{
-    color: lime;
-    background-color: black;
+    text-align: right;
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 25%;
     display: flex;
     position: absolute;
+    float: right;
 }
-.am, .re, .pr{
-    padding:15px;
-    color: lime;
-    background-color: black;
-    font-size: 20px;
+.am, .pr, .re{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 2px solid lime;
-    flex-direction: row;
-    justify-content: flex-start;
+    padding:10px;
+    justify-content: flex-end;
+    /* flex-direction: row; */
+    align-content: center;
 }
 .nav{
-    justify-content: left;
-    align-items: flex-end;
-    width: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    /* position: absolute; */
+    justify-content: right; 
+     align-items: flex-end; 
+}
+.section1{
+    display: flex;
+    background-color: gray; 
+    height: 350px;
 }
 img{
     transform: rotate(90deg);
     width: 330px;
     padding-top:100px;
-    display: block;
-    align-content: flex-start;
+    display: flex;
+    align-content: flex-end;
     /* position: absolute; */
     margin: 10px;
 }
 .info{
     background-color: grey;
-    height:330px;
-    width:80%;
-    display: inline-flex;
-    float: right;
+    height:350px;
+    /* display: inline-block; */
+    position: relative;
 }
-.list{
-    background-color: cyan;
-    width: 330px;
+.list1{
+    background-color: green;
+    width: 18%;
     height: 300px;
+    justify-content: flex-start;
+    /*margin-right: 10px;*/
+}
+.list2{
+    background-color: cyan;
+    width: 82%;
+    height: 300px;
+    justify-content: flex-end;
 }
 .lists{ 
     margin-top: 10px;
     flex-direction: row;
+    display: flex;
+    margin:0; 
 }
 h2, h3{
     font-style: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 24px;
+}
+div{
+    display:inline-block;
 }
